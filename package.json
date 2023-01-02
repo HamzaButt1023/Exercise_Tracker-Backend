@@ -1,0 +1,26 @@
+{
+    "name": "fitprism",
+    "version": "1.0.0",
+    "description": "FirPrism is a user friendly full stack web application to facilitate the user to remain fit. It has personal login and signup functionality which ensures privacy. User can select the activity of his/her choice for a set duration of time and the application will keep track of the exercise for that set duration specified by the user.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "server": "nodemon index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "express-validator": "^6.14.2",
+        "jsonwebtoken": "^8.5.1",
+        "moment": "^2.29.4",
+        "mongoose": "^6.7.5",
+        "dotenv": "^16.0.3"
+    },
+    "devDependencies": {
+
+        "nodemon": "^2.0.20"
+    }
+}
